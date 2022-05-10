@@ -34,6 +34,9 @@ button {
   padding: 10px;
   transition: all 150ms ease-in-out;
 }
+.hover:button {
+  background: rgb(116, 114, 114);
+}
 h2 {
   font-size: 30px;
   color: #f4f4f4;
