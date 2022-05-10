@@ -92,5 +92,7 @@ li {
   font-weight: 500;
 }
 .githubLink {
+  display: block;
+  margin: 0 auto;
   text-align: center;
 }
