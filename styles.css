@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(
+    89.4deg,
+    rgb(74, 77, 103) -4.3%,
+    rgb(119, 125, 165) 102.1%
+  );
+  margin: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.border {
+  border: 1px solid #ffff;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 650px;
+}
+h1 {
+  position: -webkit-sticky;
+  margin: 10px;
+  font-size: 35px;
+  color: #f4f4f4;
+}
+.search {
+  margin: 10px;
+}
+button {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+}
+h2 {
+  font-size: 30px;
+  color: #f4f4f4;
+  margin: 10px;
+}
+#date {
+  color: #000000;
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.current-temp {
+  background: #f4f4f4;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  padding: 20px;
+}
+.temp {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: right;
+  margin: 20px;
+}
+.units {
+  font-size: 16px;
+  position: relative;
+  top: -20px;
+  left: -15px;
+}
+ul {
+  display: inline;
+}
+li {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.five-day-forcast {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  margin: 20px;
+  line-height: 2rem;
+  background: #f4f4f4;
+
+  font-weight: 400;
+  font-size: 17px;
+}
+li {
+  list-style: none;
+}
+.temperature {
+  font-weight: 500;
+}
