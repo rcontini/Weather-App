@@ -34,7 +34,7 @@ button {
   padding: 10px;
   transition: all 150ms ease-in-out;
 }
-.hover:button {
+button:hover {
   background: rgb(116, 114, 114);
 }
 h2 {
