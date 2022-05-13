@@ -24,6 +24,7 @@ h1 {
 }
 .form-control {
   display: inline-block;
+  vertical-align: center;
   width: 30%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
@@ -39,6 +40,7 @@ h1 {
 }
 button {
   display: inline-block;
+  vertical-align: center;
   font-weight: 400;
   font-size: 15px;
   text-align: center;
