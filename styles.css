@@ -9,6 +9,11 @@ body {
 }
 .border {
   border: 1px solid #ffff;
+  background: radial-gradient(
+    506px at 50.6% 16.5%,
+    rgb(239, 252, 250) 5.5%,
+    rgb(154, 192, 206) 100.2%
+  );
   padding: 25px;
   margin: 20px auto;
   border-radius: 10px;
