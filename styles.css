@@ -31,7 +31,7 @@ form {
   padding: 10px;
   font-size: 18px;
   font-weight: 400;
-  line-height: normal;
+
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
@@ -44,15 +44,15 @@ button {
   display: inline;
   font-weight: 400;
   font-size: 15px;
-  text-align: right;
   border: 1px solid transparent;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px 0px;
+  margin: 0px 10px;
   transition: all 150ms ease-in-out;
 }
 button:hover {
   background: rgb(192, 191, 191);
+  cursor: pointer;
 }
 h2 {
   font-size: 30px;

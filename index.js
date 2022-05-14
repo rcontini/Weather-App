@@ -7,6 +7,8 @@ function displayWeather(response) {
   document.querySelector("#windspeed").innerHTML = Math.round(
     response.data.wind.speed
   );
+  document.querySelector("#description").innerHTML =
+    response.data.weather[0].description;
 }
 function searchCity(city) {
   let apiKey = "4de5d6165fffbb5d356ef70ff72b3431";
