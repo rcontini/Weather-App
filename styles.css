@@ -64,7 +64,7 @@ h2 {
   font-size: 25px;
   margin: 10px 0px;
 }
-#current-temp {
+.current-temp {
   background: #f4f4f4;
   display: inline-block;
   vertical-align: middle;
@@ -72,7 +72,12 @@ h2 {
   padding: 10px;
   border-radius: 5px;
 }
-
+.temp {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: right;
+  margin: 20px;
+}
 .units {
   font-size: 16px;
   position: relative;
