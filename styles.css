@@ -21,9 +21,10 @@ h1 {
   font-size: 40px;
   color: #f4f4f4;
 }
-
+form {
+  display: inline;
+}
 .form-control {
-  display: inline-block;
   width: 30%;
   padding: 10px;
   font-size: 18px;
@@ -34,8 +35,10 @@ h1 {
   border: 1px solid #ced4da;
   border-radius: 5px;
   transition: all 150ms ease-in-out;
+  margin: 0px 0px;
 }
 button {
+  display: inline;
   font-weight: 400;
   font-size: 15px;
   text-align: center;
