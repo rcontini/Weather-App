@@ -57,7 +57,7 @@ button:hover {
 h2 {
   font-size: 30px;
   color: #f4f4f4;
-  margin: 10px;
+  margin: 10px 0px 5px 0px;
 }
 #date {
   color: #000000;
