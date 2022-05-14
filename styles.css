@@ -9,7 +9,6 @@ body {
 }
 .border {
   border: 1px solid #ffff;
-
   padding: 25px;
   margin: 20px auto;
   border-radius: 10px;
@@ -19,13 +18,12 @@ h1 {
   text-align: center;
   position: -webkit-sticky;
   margin: 10px;
-  font-size: 35px;
+  font-size: 40px;
   color: #f4f4f4;
 }
 
 .form-control {
   display: inline;
-  vertical-align: center;
   width: 30%;
   padding: 10px;
   font-size: 18px;
@@ -38,8 +36,6 @@ h1 {
   transition: all 150ms ease-in-out;
 }
 button {
-  display: inline;
-  vertical-align: center;
   font-weight: 400;
   font-size: 15px;
   text-align: center;
