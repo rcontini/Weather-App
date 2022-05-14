@@ -23,7 +23,7 @@ h1 {
 }
 
 .form-control {
-  display: inline;
+  display: inline-block;
   width: 30%;
   padding: 10px;
   font-size: 18px;
@@ -93,7 +93,6 @@ li {
   margin: 20px;
   line-height: 2rem;
   background: #f4f4f4;
-
   font-weight: 400;
   font-size: 17px;
 }
