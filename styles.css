@@ -31,7 +31,7 @@ form {
 
   font-size: 18px;
   font-weight: 400;
-  padding: 10px;
+
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
@@ -46,7 +46,7 @@ button {
   font-size: 18px;
   border: 1px solid transparent;
   border-radius: 5px;
-  padding: 10px;
+
   transition: all 150ms ease-in-out;
 }
 button:hover {
