@@ -89,6 +89,7 @@ ul {
 }
 li {
   text-decoration: none;
+  text-transform: capitalize;
   margin: 0px;
   padding: 0px 0px 0px 0px;
 }
