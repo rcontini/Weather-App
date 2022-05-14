@@ -64,7 +64,7 @@ h2 {
   font-size: 25px;
   margin: 10px 0px;
 }
-.current-temp {
+#current-temp {
   background: #f4f4f4;
   display: inline-block;
   vertical-align: middle;
