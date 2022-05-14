@@ -23,6 +23,7 @@ h1 {
 }
 form {
   display: inline;
+  width: 100%;
 }
 .form-control {
   display: inline;
