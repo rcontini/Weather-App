@@ -26,6 +26,7 @@ form {
 }
 .form-control {
   display: inline;
+  text-align: left;
   width: 30%;
   padding: 10px;
   font-size: 18px;
@@ -43,7 +44,7 @@ button {
   display: inline;
   font-weight: 400;
   font-size: 15px;
-  text-align: center;
+  text-align: right;
   border: 1px solid transparent;
   border-radius: 5px;
   padding: 10px;
