@@ -25,6 +25,7 @@ form {
   display: inline;
 }
 .form-control {
+  display: inline;
   width: 30%;
   padding: 10px;
   font-size: 18px;
@@ -37,6 +38,7 @@ form {
   transition: all 150ms ease-in-out;
   margin: 0px 0px;
 }
+
 button {
   display: inline;
   font-weight: 400;
