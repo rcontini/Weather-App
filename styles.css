@@ -23,7 +23,7 @@ h1 {
 }
 form {
   display: inline;
-  width: 16rem;
+  width: 50%;
 }
 .form-control {
   display: inline;
@@ -40,7 +40,6 @@ form {
 }
 
 button {
-  width: 50%;
   display: inline;
   font-weight: 400;
   text-align: center;
