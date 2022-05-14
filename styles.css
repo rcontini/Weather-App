@@ -27,7 +27,6 @@ form {
 }
 .form-control {
   display: inline;
-  text-align: center;
 
   font-size: 18px;
   font-weight: 400;
@@ -42,11 +41,10 @@ form {
 button {
   display: inline;
   font-weight: 400;
-  text-align: center;
   font-size: 18px;
   border: 1px solid transparent;
   border-radius: 5px;
-
+  padding: 10px;
   transition: all 150ms ease-in-out;
 }
 button:hover {
