@@ -61,6 +61,11 @@ h2 {
 }
 
 .current-temp {
+  background: linear-gradient(
+    89.4deg,
+    rgb(74, 77, 103) -4.3%,
+    rgb(119, 125, 165) 102.1%
+  );
   display: inline-block;
   vertical-align: middle;
   margin: 10px;
@@ -93,6 +98,11 @@ li {
   padding: 0px 0px 0px 0px;
 }
 .five-day-forcast {
+  background: linear-gradient(
+    89.4deg,
+    rgb(74, 77, 103) -4.3%,
+    rgb(119, 125, 165) 102.1%
+  );
   display: inline-block;
   vertical-align: middle;
   padding: 10px;
