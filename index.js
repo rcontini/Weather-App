@@ -1,5 +1,4 @@
 function displayWeather(response) {
-  console.log(response.data);
   let iconElement = document.querySelector("#icon");
 
   document.querySelector("#locationHeader").innerHTML = response.data.name;
