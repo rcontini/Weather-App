@@ -61,7 +61,6 @@ h2 {
 }
 
 .current-temp {
-  background: #f4f4f4;
   display: inline-block;
   vertical-align: middle;
   margin: 10px;
@@ -69,10 +68,10 @@ h2 {
   border-radius: 5px;
 }
 #icon {
-  display: inline;
+  display: inline-block;
 }
 .temp {
-  display: inline;
+  display: inline-block;
   font-size: 45px;
   font-weight: 400;
   text-align: right;
@@ -99,7 +98,7 @@ li {
   padding: 10px;
   margin: 20px;
   line-height: 2rem;
-  background: #f4f4f4;
+
   font-weight: 400;
   font-size: 17px;
 }
