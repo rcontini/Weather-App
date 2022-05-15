@@ -1,4 +1,6 @@
 function displayWeather(response) {
+  console.log(response.data);
+
   document.querySelector("#locationHeader").innerHTML = response.data.name;
   document.querySelector("#currentTemp").innerHTML = Math.round(
     response.data.main.temp
