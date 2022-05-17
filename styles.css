@@ -72,9 +72,9 @@ h2 {
   display: inline-block;
   font-size: 45px;
   font-weight: 400;
-  text-align: right;
   position: relative;
-  left: 10px;
+  left: -10px;
+  top: 10px;
 }
 .units {
   font-size: 16px;
