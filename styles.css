@@ -79,7 +79,7 @@ h2 {
 .units {
   font-size: 16px;
   position: relative;
-  top: 15px;
+  top: -10px;
   left: -10px;
 }
 .units .active {
