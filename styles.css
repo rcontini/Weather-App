@@ -1,5 +1,5 @@
 body {
-  background: #414a50;
+  background: #85a6b1;
 
   margin: 50px;
   font-family: "Roboto", sans-serif;
@@ -83,7 +83,7 @@ h2 {
 }
 .units .active {
   cursor: default;
-  color: rgb(192, 191, 191);
+  color: black;
 }
 .units .active:hover {
   text-decoration: none;
