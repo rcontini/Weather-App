@@ -81,6 +81,13 @@ h2 {
   top: -20px;
   left: -15px;
 }
+.units .active {
+  cursor: default;
+  color: rgb(192, 191, 191);
+}
+.units .active:hover {
+  text-decoration: none;
+}
 ul {
   display: inline;
 }
