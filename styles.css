@@ -100,6 +100,7 @@ li {
 }
 .five-day-forcast {
   background: #85a6b1;
+  border: 1px solid #ced4da;
   display: inline-block;
   vertical-align: middle;
   padding: 10px;
