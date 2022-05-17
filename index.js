@@ -82,10 +82,13 @@ h3.innerHTML = `${day} ${hour}:${minutes}`;
 //displayCelsius.addEventListener("click", showCelsius);
 
 //Change to Fahrenheit
-//function showFahrenheit(event) {
-//// event.preventDefault();
-//let fahrenheit = document.querySelector("#currentTemp");
-// fahrenheit.innerHTML = 37;
-//}
-//let displayFahrenheit = document.querySelector("#fahrenheit");
-//displayFahrenheit.addEventListener("click", showFahrenheit);
+function showFahrenheitTemperature(event) {
+  event.preventDefault();
+  let fahrenheitTemperature = (14 * 9) / 5 + 32;
+  let temperatureElement = document.querySelector("#currentTemp");
+  temperatureElement.innerHTML = fahrenheitTemperature;
+  //let fahrenheit = document.querySelector("#currentTemp");
+  // fahrenheit.innerHTML = 37;
+}
+let fahrenheitLink = document.querySelector("#fahrenheit");
+fahrenheitLink.addEventListener("click", showFahrenheitTemperature);
