@@ -105,17 +105,23 @@ li {
   vertical-align: middle;
   padding: 10px;
   margin: 20px;
-  line-height: 2rem;
-
+}
+.weather-forcast-date {
   font-weight: 400;
   font-size: 17px;
+  line-height: 2rem;
 }
 li {
   list-style: none;
 }
-.temperature {
+.weather-forcast-temperature {
   font-weight: 500;
+  font-size: 14px;
 }
+.min-temp {
+  opacity: 0.5;
+}
+
 .githubLink {
   display: block;
   margin: 0 auto;
