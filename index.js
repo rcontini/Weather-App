@@ -27,7 +27,7 @@ function displayForcast(response) {
   let forcastElement = document.querySelector("#forcast");
   let days = ["Thu", "Fri", "Sat", "Sun"];
   days.forEach(function (day) {
-    let forcastHTML = `<div class="row">`;
+    let forcastHTML = `<div class="card-body" ><div class="row">`;
 
     forcastHTMl =
       forcastHTML +
@@ -41,7 +41,7 @@ function displayForcast(response) {
                 >
               </div>`;
 
-    forcastHTML = forcastHTML + `</div>`;
+    forcastHTML = forcastHTML + `</div></div>`;
     forcastElement.innerHTML = forcastHTML;
   });
 }
