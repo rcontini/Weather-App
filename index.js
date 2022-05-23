@@ -48,7 +48,7 @@ function displayForcast(response) {
 
 function getForcast(coordinates) {
   let apiKey = "4de5d6165fffbb5d356ef70ff72b3431";
-  let apiUrl = `api.openweathermap.org/data/2.5/forecast?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(displayForcast);
 }
