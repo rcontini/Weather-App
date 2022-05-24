@@ -72,8 +72,12 @@ function displayWeather(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
 
-  document.querySelector("#temp-max").innerHTML = response.data.main.temp_max;
-  document.querySelector("#temp-min").innerHTML = response.data.main.temp_min;
+  document.querySelector("#temp-max").innerHTML = Math.round(
+    response.data.main.temp_max
+  );
+  document.querySelector("#temp-min").innerHTML = Math.round(
+    response.data.main.temp_min
+  );
 
   getForcast(response.data.coord);
 }
