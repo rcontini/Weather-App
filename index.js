@@ -52,8 +52,8 @@ function displayForecast(response) {
               <div class="col-4 weather-forecast-temperature">
                 <span class="max-temp">${Math.round(
                   forecastDay.temp.max
-                )}° </span>/<span class="min-temp"
-                  > ${Math.round(forecastDay.temp.min)}°</span>
+                )}°</span>/<span class="min-temp"
+                  >${Math.round(forecastDay.temp.min)}°</span>
               </div>`;
     }
   });
