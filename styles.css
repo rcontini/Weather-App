@@ -98,7 +98,7 @@ li {
   margin: 0px;
   padding: 0px 0px 0px 0px;
 }
-.five-day-forcast {
+.five-day-forecast {
   background: #85a6b1;
   border: 1px solid #ced4da;
   display: inline-block;
@@ -106,7 +106,7 @@ li {
   padding: 10px;
   margin: 20px;
 }
-.weather-forcast-date {
+.weather-forecast-date {
   font-weight: 400;
   font-size: 17px;
   line-height: 2rem;
@@ -114,7 +114,7 @@ li {
 li {
   list-style: none;
 }
-.weather-forcast-temperature {
+.weather-forecast-temperature {
   font-weight: 500;
   font-size: 15px;
 }
