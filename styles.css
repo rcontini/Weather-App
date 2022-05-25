@@ -39,7 +39,7 @@ button {
   font-size: 18px;
   border: 1px solid transparent;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.375rem 0.75rem;
   transition: all 150ms ease-in-out;
 }
 button:hover {
