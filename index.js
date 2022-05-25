@@ -33,11 +33,11 @@ function displayForecast(response) {
     forecastHTML =
       forecastHTML +
       `
-              <div class="col-6">
+              <div class="col-4">
                 <div class="weather-forecast-date"><em>${forecastDay.dt}</em></div>
               </div>
-              <span> <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" width="42"/></span>
-              <div class="col-6 weather-forecast-temperature">
+              <div class="col-4"><span> <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" width="42"/></span></div>
+              <div class="col-4 weather-forecast-temperature">
                 <span class="max-temp">${forecastDay.temp.max}° </span>/<span class="min-temp"
                   > ${forecastDay.temp.min}°</span>
               </div>`;
