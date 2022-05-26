@@ -52,7 +52,7 @@ function displayForecast(response) {
               <div class="col-4 weather-forecast-temperature">
                 <span class="max-temp">${Math.round(
                   forecastDay.temp.max
-                )}°</span>/<span class="min-temp"
+                )}°</span> <span class="min-temp"
                   >${Math.round(forecastDay.temp.min)}°</span>
               </div>`;
     }
@@ -84,7 +84,9 @@ function displayWeather(response) {
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
-
+  document.querySelector("#windspeed").innerHTML = Math.round(
+    response.data.wind.speed
+  );
   document.querySelector("#temp-max").innerHTML = Math.round(
     response.data.main.temp_max
   );
