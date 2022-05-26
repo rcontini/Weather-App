@@ -105,7 +105,7 @@ li {
   border: 1px solid #ced4da;
   display: inline-block;
   vertical-align: middle;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
   margin: 10px;
 }
 .weather-forecast-date {
