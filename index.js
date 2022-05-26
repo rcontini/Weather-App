@@ -72,11 +72,10 @@ function getForcast(coordinates) {
 function displayWeather(response) {
   let iconElement = document.querySelector("#icon");
 
-  celsiusTemperature = response.data.main.temp;
+  fTemperature = response.data.main.temp;
 
   document.querySelector("#locationHeader").innerHTML = response.data.name;
-  document.querySelector("#currentTemp").innerHTML =
-    Math.round(celsiusTemperature);
+  document.querySelector("#currentTemp").innerHTML = Math.round(fTemperature);
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
 
   document.querySelector("#description").innerHTML =
@@ -124,7 +123,5 @@ function getCurrentLocation(event) {
 
 let currentTemperature = document.querySelector("button");
 currentTemperature.addEventListener("click", getCurrentLocation);
-
-//Change to Fahrenheit
 
 searchCity("New York");
