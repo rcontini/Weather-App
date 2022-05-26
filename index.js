@@ -72,7 +72,7 @@ function getForcast(coordinates) {
 function displayWeather(response) {
   let iconElement = document.querySelector("#icon");
 
-  console.log(response.data.wind.speed);
+  console.log(response.data.wind);
 
   celsiusTemperature = response.data.main.temp;
 
