@@ -21,6 +21,7 @@ h1 {
 form {
   display: inline;
   width: 50%;
+  margin: 0px 0px 0px 10px;
 }
 .form-control {
   display: inline;
@@ -49,7 +50,7 @@ button:hover {
 h2 {
   font-size: 30px;
   color: #f4f4f4;
-  margin: 10px 0px 5px 0px;
+  margin: 10px 0px 5px 10px;
 }
 #date {
   color: #000000;
