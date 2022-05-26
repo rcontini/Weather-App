@@ -76,7 +76,7 @@ h2 {
   left: -10px;
   top: 18px;
 }
-.temp-min {
+#temp-min {
   opacity: 0.7;
 }
 .units {
